@@ -1,0 +1,51 @@
+/* Google Font Import */
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Tailwind CSS Imports */
+@import "tailwindcss";
+
+/* Custom Variables Declarations  */
+:root {
+  --font-Noto: "Noto Serif", serif;
+  --font-Inter: "Inter", sans-serif;
+  --color-primary: #e95a08;
+  --color-text: rgba(0, 0, 0, 0.5);
+  --color-bg: #f5f8ff;
+}
+/* Global Styles */
+body {
+  font-family: var(--font-Inter);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+/* Utility Class */
+.font-noto {
+  font-family: var(--font-Noto);
+}
+.font-inter {
+  font-family: var(--font-Inter);
+}
+.color-primary {
+  color: var(--color-primary);
+}
+.color-heading {
+  color: black;
+}
+.color-text {
+  color: var(--color-text);
+}
+.button {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border: none;
+  font-family: var(--font-Inter);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.max-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
