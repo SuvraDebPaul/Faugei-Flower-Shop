@@ -60,8 +60,10 @@
     <main class="main mt-16">
       <!-- Our Plants -->
       <!-- Heading Section -->
-      <div class="w-11/12 mx-auto text-center">
-        <h1 class="text-black font-noto text-2xl font-bold text-pretty mb-4">
+      <div class="w-11/12 md:w-10/12 mx-auto text-center">
+        <h1
+          class="text-black font-noto text-2xl md:text-3xl lg:text-4xl font-bold text-pretty mb-4"
+        >
           Our
           <span class="color-primary">Plants </span>
         </h1>
@@ -72,69 +74,88 @@
         </p>
       </div>
       <!-- Card Section -->
-      <section class="mt-7 w-11/12 mx-auto">
+      <section class="mt-7 w-11/12 mx-auto md:w-10/12">
         <div
-          class="card-Container grid grid-cols-2 justify-items-center gap-6 text-center"
+          class="card-Container grid grid-cols-2 md:grid-cols-4 justify-items-center gap-6 text-center"
         >
           <div class="card text-black font-bold">
             <img class="mb-7" src="assets/sample-flower-image.png" alt="" />
             <h4>Lily Blossom</h4>
             <h4>20 USD</h4>
-            <button class="button mt-7">Add to Cart</button>
+            <button class="button mt-7 w-full py-3">Add to Cart</button>
           </div>
           <div class="card text-black font-bold">
             <img class="mb-7" src="assets/sample-flower-image.png" alt="" />
             <h4>Lily Blossom</h4>
             <h4>20 USD</h4>
-            <button class="button mt-7">Add to Cart</button>
+            <button class="button mt-7 w-full py-3">Add to Cart</button>
           </div>
           <div class="card text-black font-bold">
             <img class="mb-7" src="assets/sample-flower-image.png" alt="" />
             <h4>Lily Blossom</h4>
             <h4>20 USD</h4>
-            <button class="button mt-7">Add to Cart</button>
+            <button class="button mt-7 w-full py-3">Add to Cart</button>
           </div>
           <div class="card text-black font-bold">
             <img class="mb-7" src="assets/sample-flower-image.png" alt="" />
             <h4>Lily Blossom</h4>
             <h4>20 USD</h4>
-            <button class="button mt-7">Add to Cart</button>
+            <button class="button mt-7 w-full py-3">Add to Cart</button>
           </div>
           <div class="card text-black font-bold">
             <img class="mb-7" src="assets/sample-flower-image.png" alt="" />
             <h4>Lily Blossom</h4>
             <h4>20 USD</h4>
-            <button class="button mt-7">Add to Cart</button>
+            <button class="button mt-7 w-full py-3">Add to Cart</button>
           </div>
           <div class="card text-black font-bold">
             <img class="mb-7" src="assets/sample-flower-image.png" alt="" />
             <h4>Lily Blossom</h4>
             <h4>20 USD</h4>
-            <button class="button mt-7">Add to Cart</button>
+            <button class="button mt-7 w-full py-3">Add to Cart</button>
+          </div>
+          <div class="card text-black font-bold">
+            <img class="mb-7" src="assets/sample-flower-image.png" alt="" />
+            <h4>Lily Blossom</h4>
+            <h4>20 USD</h4>
+            <button class="button mt-7 w-full py-3">Add to Cart</button>
+          </div>
+          <div class="card text-black font-bold">
+            <img class="mb-7" src="assets/sample-flower-image.png" alt="" />
+            <h4>Lily Blossom</h4>
+            <h4>20 USD</h4>
+            <button class="button mt-7 w-full py-3">Add to Cart</button>
           </div>
         </div>
       </section>
       <!-- Flower & Plants Lover Section -->
-      <section class="mt-16 w-11/12 mx-auto">
-        <div class="mt-7">
-          <img class="w-full" src="assets/flower-store.png" alt="" />
+      <section
+        class="mt-16 w-11/12 mx-auto md:w-10/12 md:flex md:gap-15 md:mt-52"
+      >
+        <div class="mt-7 basis-1/2 relative">
+          <img class="w-full h-full" src="assets/flower-store.png" alt="" />
+          <div class="hidden md:block md:absolute md:-top-2/6 md:-right-1/4">
+            <img class="w-60 h-60" src="assets/trusted-badge.png" alt="" />
+          </div>
         </div>
-        <div class="mt-5">
-          <h1 class="text-black font-noto text-2xl font-bold text-pretty mb-4">
+        <div class="mt-5 basis-1/2">
+          <h1
+            class="text-black font-noto text-2xl md:text-3xl lg:text-4xl font-bold text-pretty mb-4"
+          >
             Flower & Plants Lover
           </h1>
           <ul class="list-disc ml-6">
-            <li>
+            <li class="text-balance">
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
               variety of fresh.
             </li>
-            <li class="my-4">
+            <li class="my-4 text-balance">
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
               variety of fresh.
             </li>
-            <li>
+            <li class="text-balance">
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
               variety of fresh.
@@ -143,9 +164,11 @@
         </div>
       </section>
       <!-- Latest Deals -->
-      <section class="w-11/12 mx-auto mt-16">
+      <section class="w-11/12 md:w-10/12 mx-auto mt-16 md:mt-28">
         <div class="text-center">
-          <h1 class="text-black font-noto text-2xl font-bold text-pretty mb-4">
+          <h1
+            class="text-black font-noto text-2xl md:text-3xl lg:text-4xl font-bold text-pretty mb-4"
+          >
             <span class="color-primary">Latest</span> Deals
           </h1>
           <p class="px-7 text-pretty">
@@ -155,7 +178,9 @@
           </p>
         </div>
         <!-- Shop Now Section -->
-        <div class="shop-now-container mt-12 grid grid-cols-1 gap-6">
+        <div
+          class="shop-now-container mt-12 grid grid-cols-1 md:grid-cols-3 md:auto-rows-fr gap-4"
+        >
           <div class="shop-now relative h-52">
             <div
               class="absolute inset-0 bg-[url('assets/deal-bloom.png')] bg-cover bg-center brightness-50 rounded-2xl"
@@ -167,7 +192,7 @@
               <a href="#">Shop Now</a>
             </div>
           </div>
-          <div class="shop-now relative h-52">
+          <div class="shop-now relative h-52 md:row-start-2">
             <div
               class="absolute inset-0 bg-[url('assets/deal-ana.png')] bg-cover bg-center brightness-50 rounded-2xl"
             ></div>
@@ -178,7 +203,9 @@
               <a class="underline underline-offset-4" href="#">Shop Now</a>
             </div>
           </div>
-          <div class="shop-now relative h-52">
+          <div
+            class="shop-now relative h-52 md:h-full md:w-full md:col-start-2 md:row-span-2 md:col-span-2"
+          >
             <div
               class="absolute inset-0 bg-[url('assets/deal-zabo.png')] bg-cover bg-center brightness-50 rounded-2xl"
             ></div>
@@ -194,22 +221,28 @@
       <!-- Contact Section -->
       <section class="w-full mt-7">
         <div
-          class="bg-[url('assets/news-letter-bg.png')] bg-cover bg-center flex justify-center items-center flex-col text-center py-28"
+          class="bg-[url('assets/news-letter-bg.png')] bg-cover bg-center flex justify-center items-center flex-col text-center py-28 md:py-40 lg:py-60"
         >
           <div>
-            <h3 class="font-noto text-xl text-white font-bold mb-4">
+            <h3
+              class="font-noto text-xl md:text-3xl lg:text-4xl text-white font-bold mb-4"
+            >
               Join the colorful Bunch
             </h3>
           </div>
-          <div class="flex">
+          <div class="flex justify-center items-center">
             <input
-              class="bg-white py-4 pl-5"
+              class="bg-white py-4 pl-5 md:grow-1 md:shrink-0 md:w-xl lg:2xl"
               type="email"
               name="email"
               id="email"
               placeholder="Write email"
             />
-            <input type="button" value="Subscribe" class="button" />
+            <input
+              type="button"
+              value="Subscribe"
+              class="button py-4 px-3 md:px-6"
+            />
           </div>
         </div>
       </section>

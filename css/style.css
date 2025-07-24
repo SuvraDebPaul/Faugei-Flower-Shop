@@ -41,7 +41,6 @@ body {
 .button {
   background-color: var(--color-primary);
   color: white;
-  padding: 1rem 2rem;
   font-size: 1rem;
   border: none;
   font-family: var(--font-Inter);
