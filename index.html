@@ -8,30 +8,48 @@
     <title>Faugei Flower Shop</title>
   </head>
   <body>
-    <header class="header">
+    <header class="header mt-2 md:w-10/12 md:mx-auto md:mt-10">
       <!-- Top Header / Nav Section -->
-      <div class="top-header w-11/12 mx-auto flex justify-between items-center">
+      <div
+        class="top-header w-11/12 md:w-full mx-auto flex justify-between items-center"
+      >
         <div class="logo">
-          <img class="w-2/3" src="assets/logo.png" alt="Logo" />
+          <img class="w-1/4" src="assets/logo.png" alt="Logo" />
         </div>
-        <div class="right-side text-black">
-          <p>Cart <span>($56)</span></p>
+        <div
+          class="right-side text-black flex justify-between items-center gap-8"
+        >
+          <nav class="hidden md:block">
+            <ul class="flex gap-6">
+              <li><a href="#">Home</a></li>
+              <li><a class="text-gray-500" href="#">Shop</a></li>
+              <li><a class="text-gray-500" href="#">About Us</a></li>
+            </ul>
+          </nav>
+          <div class="flex gap-2 items-center">
+            <img class="w-1/4" src="assets/shopping-cart.png" alt="" />
+            <p>Cart<span class="ml-1.5">($56)</span></p>
+          </div>
         </div>
       </div>
       <!-- Banner Section -->
-      <section class="mt-7">
-        <div>
+      <section class="mt-7 md:mt-10 md:flex">
+        <div class="md:order-2 md:basis-1/2">
           <img class="w-full" src="assets/hero-flower.png" alt="" />
         </div>
-        <div class="w-11/12 mx-auto">
-          <h1 class="text-black font-noto text-2xl font-bold text-pretty my-7">
+        <div
+          class="w-11/12 md:w-full mx-auto md:order-1 md:basis-1/2 md:self-end"
+        >
+          <h1
+            class="text-black font-noto md:text-4xl lg:text-5xl xl:text-6xl font-bold text-pretty my-7 md:mb-4 text-2xl"
+          >
             ALWAYS
             <span class="color-primary"
               >FRESH <br />
               FLOWERS</span
             >
           </h1>
-          <p>
+          <p class="text-balance md:text-xs lg:text-lg">
             Indulge your senses with the beauty and fragrance of our fresh
             flower shop. From classic roses to exotic blooms, we offer a wide
             variety of fresh flowers that are perfect for any occasion.
@@ -99,7 +117,7 @@
       <!-- Flower & Plants Lover Section -->
       <section class="mt-16 w-11/12 mx-auto">
         <div class="mt-7">
-          <img src="assets/flower-store.png" alt="" />
+          <img class="w-full" src="assets/flower-store.png" alt="" />
         </div>
         <div class="mt-5">
           <h1 class="text-black font-noto text-2xl font-bold text-pretty mb-4">
@@ -198,7 +216,7 @@
     </main>
     <!-- Footer Section -->
     <footer class="footer mt-12 w-11/12 mx-auto">
-      <div class="grid grid-cols-1 gap-4">
+      <div class="grid grid-cols-1 gap-8">
         <div class="logo">
           <img class="w-1/2 mb-4" src="assets/logo.png" alt="" />
           <p class="text-balance">
@@ -208,23 +226,23 @@
         </div>
         <div class="footer__nav1">
           <ul class="list-none">
-            <li class=""><a href="#">Home</a></li>
-            <li class=""><a href="#">About Us</a></li>
-            <li class=""><a href="#">Blog</a></li>
-            <li class=""><a href="#">FAQ</a></li>
+            <li class="mb-8"><a href="#">Home</a></li>
+            <li class="mb-8"><a href="#">About Us</a></li>
+            <li class="mb-8"><a href="#">Blog</a></li>
+            <li class="mb-8"><a href="#">FAQ</a></li>
             <li class=""><a href="#">Contact Us</a></li>
           </ul>
         </div>
         <div class="footer__nav2">
           <ul class="list-none">
-            <li class=""><a href="#">Features</a></li>
-            <li class=""><a href="#">Pricing</a></li>
-            <li class=""><a href="#">Privacy Policy</a></li>
-            <li class=""><a href="#">Terms of Service </a></li>
+            <li class="mb-8"><a href="#">Features</a></li>
+            <li class="mb-8"><a href="#">Pricing</a></li>
+            <li class="mb-8"><a href="#">Privacy Policy</a></li>
+            <li class="mb-8"><a href="#">Terms of Service </a></li>
             <li class=""><a href="#">Help Center</a></li>
           </ul>
         </div>
-        <div class="social_links flex justify-start items-center gap-4 mb-10">
+        <div class="social_links flex justify-start items-center gap-8 mb-10">
           <img src="assets/icon-linkedin.png" alt="" />
           <img src="assets/icon-twitter.png" alt="" />
           <img src="assets/icon-facebook.png" alt="" />
