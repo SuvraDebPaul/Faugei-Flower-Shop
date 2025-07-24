@@ -48,7 +48,40 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
+.subs-button {
+  background-color: var(--color-primary);
+  color: white;
+  font-size: 1rem;
+  border: none;
+  font-family: var(--font-Inter);
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.subs-button:hover {
+  transform: scale(1.06);
+  transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  background-color: #ce4c00;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
 .max-container {
   max-width: 80%;
   margin: 0 auto;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning-badge {
+  animation: spin 8s linear infinite;
 }
